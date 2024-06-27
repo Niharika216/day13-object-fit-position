@@ -1,0 +1,45 @@
+img{
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    margin: 10px;
+}
+h2{
+    font-family: Forte;
+}
+h2:hover{
+    background-color: aquamarine;
+    color: rgb(248, 0, 182);
+}
+#fill img{
+    object-fit: fill;
+}
+#cover img{
+    object-fit: cover;
+}
+#contain img{
+   object-fit: contain; 
+}
+#none img{
+    object-fit: none;
+}
+#scale img{
+    object-fit: scale-down;
+}
+marquee{
+    background-color: darkgoldenrod;
+    border-radius: 50px;
+}
+#egypt{
+    object-position: -1200px 5%;
+    object-fit: none;
+}
+#charminar{
+    object-position: -50px 20%;
+    object-fit: none;
+}
+#eiffelTower{
+    object-position: -600px 20%;
+    object-fit: none;
+}
